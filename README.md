@@ -21,7 +21,7 @@
       Ex: http://localhost:9119/api/appointment/all/5b8c49f3ef4efb4f01a4d2b5
   
     Note: Doctor ID is an ObjectID of a document in "Doctors" collection in Mongo DB. You'll have to manually retrieve it. I was unable to implement the 
-  Days requirement due to time restriction but I was able to find Moment.js lib which has great API to get this done. 
+    Days requirement due to time restriction but I was able to find Moment.js lib which has great API to get this done. 
 
   
   
