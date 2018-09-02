@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "google"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-var": 0,
+    "new-cap": 0,
+    "generator-star-spacing": 0,
+    "require-jsdoc": 0,
+    "camelcase": 0,
+    "arrow-parens": 0,
+    "no-invalid-this": 0,
+    "quote-props": 0,
+    "linebreak-style": 0,
+    "no-undef": [2],
+    "no-unused-vars": "error",
+    "no-const-assign": [2],
+    "max-len": [
+      2,
+      150
+    ],
+    "object-curly-spacing": [2, "always"],
+    "no-trailing-spaces": [2, { "skipBlankLines": true }]
+  }
+}
